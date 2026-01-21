@@ -3,9 +3,6 @@ variable "instance_type" {
   default     = "t3.micro"
 }
 
-data "aws_ami" "app_ami" {
-  most_recent = true
-
 variable "ami_filter" {
   type = object ({
     name  = string
