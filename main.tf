@@ -72,7 +72,3 @@ module "blog_alb" {
     }
   }
 }
-
-  tags = {
-    Environment = "dev"
-}
